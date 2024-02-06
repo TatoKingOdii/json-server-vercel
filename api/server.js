@@ -13,13 +13,9 @@ const server = jsonServer.create()
 
 // Comment out to allow write operations
 const router = jsonServer.router({
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+    "tv-shows": [
+        {'id': '0', 'name': 'Family Guy', 'genre': 'Comedy', 'rating':  'PG-13', 'seasons': 13, 'score': '99'}
+    ]
   })
 
 const middlewares = jsonServer.defaults()
