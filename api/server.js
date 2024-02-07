@@ -15,6 +15,12 @@ const server = jsonServer.create()
 const router = jsonServer.router({
     "tv-shows": [
         {'id': '0', 'name': 'Family Guy', 'genre': 'Comedy', 'rating':  'PG-13', 'seasons': 13, 'score': '99'}
+    ],
+    "drinks": [
+        {id: '1', name: 'Water', proof: 0, ingredients: 'Water', instructions: 'Fill glass from tap'}
+    ],
+    "users": [
+        {user: 'bob', pass: 'ross'}
     ]
   })
 
