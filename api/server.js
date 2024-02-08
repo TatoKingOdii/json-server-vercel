@@ -19,6 +19,9 @@ const router = jsonServer.router({
     "drinks": [
         {id: '1', name: 'Water', proof: 0, ingredients: 'Water', instructions: 'Fill glass from tap'}
     ],
+    "inventory": [
+        {"id":"fc3bfb93-400f-407d-926c-3e4f321659d7","name":"Baked Beans","quantity":100,"category":"Food","receiveDate":"2024-02-08T08:00:00.000Z","hasExpiration":true,"expirationDate":"2025-01-22T08:00:00.000Z"}
+    ],
     "users": [
         {user: 'bob', pass: 'ross'}
     ]
