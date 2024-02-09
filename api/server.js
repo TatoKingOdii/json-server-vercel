@@ -24,6 +24,10 @@ const router = jsonServer.router({
     ],
     "users": [
         {user: 'bob', pass: 'ross'}
+    ],
+    "courses": [
+        {id: '1', title: 'Potato 1', description: 'A thing 1', percentageComplete: 26, favorite: true},
+        {id: '2', title: 'Potato 2', description: 'A thing 2', percentageComplete: 0, favorite: true}
     ]
   })
 
