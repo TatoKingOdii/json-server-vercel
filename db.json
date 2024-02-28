@@ -14,5 +14,8 @@
   "courses": [
     {"id": "1", "title": "Potato 1", "description": "A thing 1", "percentageComplete": 26, "favorite": true},
     {"id": "2", "title": "Potato 2", "description": "A thing 2", "percentageComplete": 0, "favorite": true}
+  ],
+  "locations": [
+    {"id":  "924hf08jd-32jd23dj8320f0", "name":  "Seattle", "climate":  "Rainy", "cost":  "Expensive", "attractions":  "Space Needle"}
   ]
 }
